@@ -846,3 +846,46 @@ section {
     height: auto;
     margin-right: 10px;
 }
+
+.menu-hamburguesa {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .menu-hamburguesa {
+        display: block; /* Asegúrate de que esté en 'block' para que se vea */
+        cursor: pointer;
+        font-size: 24px;
+        color: #ffffff; /* O el color que necesites */
+        margin-left: 10px;
+    }
+    
+    .navbar {
+        display: none;
+        flex-direction: column;
+        background-color: rgba(2, 11, 38, 0.8); /* Color de fondo con 80% de opacidad */
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+    .navbar.activo {
+        display: flex;
+    }
+
+    .navbar a {
+        text-align: center;
+        padding: 15px;
+        border-bottom: 1px solid #1BA698;
+        width: 100%;
+    }
+
+    .titulo-formacionAcademica{
+        font-size: 15px;
+    }
+}
+

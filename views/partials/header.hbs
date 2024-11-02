@@ -1,6 +1,8 @@
 <header class="header">
-    <!-- <a href="#" class="logo">Josh</a> -->
-    <nav class="navbar">
+    <div class="menu-hamburguesa" id="menuToggle">
+        <i class="fas fa-bars"></i> <!-- Icono de menú hamburguesa -->
+    </div>
+    <nav class="navbar" id="barra">
         <a href="/" class="navbar-opcion">Inicio</a>
         <a href="/sobreMi" class="navbar-opcion">Sobre mí</a>
         <a href="/formacionAcademica" class="navbar-opcion">Formación</a>
@@ -8,4 +10,13 @@
         <a href="/proyectos" class="navbar-opcion">Proyectos</a>
         <a href="/contacto" class="navbar-opcion">Contacto</a>
     </nav>
-</header> 
+</header>
+
+<script>
+    const menuToggle = document.getElementById('menuToggle');
+    const barra = document.getElementById('barra');
+
+    menuToggle.addEventListener('click', () => {
+        barra.classList.toggle('activo');
+    });
+</script>

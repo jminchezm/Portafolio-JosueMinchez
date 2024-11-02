@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Inicio - Portafolio</title>
+</head>
+<body>
+    {{!-- Lugar del header --}}
+    {{> header}}
+
+    <main class="inicio" id="inicio">
+        <section id="habilidades">
+            <h1 class="titulo-habilidades">Lenguajes de Programación</h1>
+            <div class="lenguajes-programacion">
+                <article class="lenguajes-programacion-opcion">
+                    <img src="images/csharp.png" alt="C#" class="lenguajes-programacion-img">
+                    <div class="porcentaje-container">
+                        <div class="barra-porcentaje" style="width: 50%;">
+                            <span class="porcentaje">50%</span> <!-- Porcentaje dentro de la barra -->
+                        </div>
+                        <div class="barra-porcentaje-restante" style="width: 100%;"></div> <!-- Barra de porcentaje restante -->
+                    </div>
+                    <p>
+                        C# para la creación de aplicaciones de escritorio y web, orientado a objetos. Soporte para la programación de software robusto y escalable.
+                    </p>
+                </article>
+                <article class="lenguajes-programacion-opcion">
+                    <img src="images/javascript.png" alt="JavaScript" class="lenguajes-programacion-img">
+                    <div class="porcentaje-container">
+                        <div class="barra-porcentaje" style="width: 50%;">
+                            <span class="porcentaje">50%</span> <!-- Porcentaje dentro de la barra -->
+                        </div>
+                        <div class="barra-porcentaje-restante" style="width: 100%;"></div> <!-- Barra de porcentaje restante -->
+                    </div>
+                    <p>
+                        JavaScript aplicando interactividad y dinamismo de las páginas web, facilitando la implementación de funciones complejas y la manipulación del contenido del DOM.
+                    </p>
+                </article>
+                <article class="lenguajes-programacion-opcion">
+                    <img src="images/dbsqlserver.png" alt="SQL Server" class="lenguajes-programacion-img">
+                    <div class="porcentaje-container">
+                        <div class="barra-porcentaje" style="width: 60%;">
+                            <span class="porcentaje">60%</span> <!-- Porcentaje dentro de la barra -->
+                        </div>
+                        <div class="barra-porcentaje-restante" style="width: 100%;"></div> <!-- Barra de porcentaje restante -->
+                    </div>
+                    <p>
+                        Diseño y gestión de bases de datos, consultas complejas y optimización de rendimiento.
+                    </p>
+                </article>
+                <!-- Nueva fila agregada para C++, Java y Node.js -->
+                <article class="lenguajes-programacion-opcion">
+                    <img src="images/cplusplus.png" alt="C++" class="lenguajes-programacion-img">
+                    <div class="porcentaje-container">
+                        <div class="barra-porcentaje" style="width: 50%;">
+                            <span class="porcentaje">50%</span> <!-- Porcentaje dentro de la barra -->
+                        </div>
+                        <div class="barra-porcentaje-restante" style="width: 100%;"></div> <!-- Barra de porcentaje restante -->
+                    </div>
+                    <p>
+                        C++ es un lenguaje de programación de propósito general que permite la programación de sistemas y aplicaciones. Es conocido por su eficiencia y control sobre los recursos del sistema.
+                    </p>
+                </article>
+                <article class="lenguajes-programacion-opcion">
+                    <img src="images/java.png" alt="Java" class="lenguajes-programacion-img">
+                    <div class="porcentaje-container">
+                        <div class="barra-porcentaje" style="width: 30%;">
+                            <span class="porcentaje">30%</span> <!-- Porcentaje dentro de la barra -->
+                        </div>
+                        <div class="barra-porcentaje-restante" style="width: 100%;"></div> <!-- Barra de porcentaje restante -->
+                    </div>
+                    <p>
+                        Java es un lenguaje de programación orientado a objetos que se utiliza para el desarrollo de aplicaciones en diferentes plataformas, gracias a su famosa frase "escribir una vez, ejecutar en cualquier lugar".
+                    </p>
+                </article>
+                <article class="lenguajes-programacion-opcion">
+                    <img src="images/nodejs.png" alt="Node.js" class="lenguajes-programacion-img">
+                    <div class="porcentaje-container">
+                        <div class="barra-porcentaje" style="width: 40%;">
+                            <span class="porcentaje">40%</span> <!-- Porcentaje dentro de la barra -->
+                        </div>
+                        <div class="barra-porcentaje-restante" style="width: 100%;"></div> <!-- Barra de porcentaje restante -->
+                    </div>
+                    <p>
+                        Node.js permite ejecutar JavaScript del lado del servidor, facilitando la creación de aplicaciones web escalables y rápidas con una arquitectura basada en eventos.
+                    </p>
+                </article>
+                <article class="lenguajes-programacion-opcion">
+                    <img src="images/oracleDB.png" alt="C++" class="lenguajes-programacion-img">
+                    <div class="porcentaje-container">
+                        <div class="barra-porcentaje" style="width: 60%;">
+                            <span class="porcentaje">60%</span> <!-- Porcentaje dentro de la barra -->
+                        </div>
+                        <div class="barra-porcentaje-restante" style="width: 100%;"></div> <!-- Barra de porcentaje restante -->
+                    </div>
+                    <p>
+                        Oracle Database es un sistema de gestión de bases de datos relacional (RDBMS) desarrollado por Oracle Corporation. Se utiliza para almacenar, gestionar y recuperar grandes volúmenes de datos de manera eficiente y segura.
+                    </p>
+                </article>
+            </div>
+            
+            <h1 class="titulo-habilidades">Tecnologías y Herramientas</h1>
+            <div class="tecnologias-herramientas">
+                <article class="tecnologias-herramientas-opcion">
+                    <img src="images/asp.png" alt="ASP.NET" class="tecnologias-herramientas-img">
+                    <div class="porcentaje-container">
+                        <div class="barra-porcentaje" style="width: 50%;">
+                            <span class="porcentaje">50%</span> <!-- Porcentaje dentro de la barra -->
+                        </div>
+                        <div class="barra-porcentaje-restante" style="width: 100%;"></div> <!-- Barra de porcentaje restante -->
+                    </div>
+                    <p>
+                        Implementación de aplicaciones web escalables y mantenibles.
+                    </p>
+                </article>
+                <article class="tecnologias-herramientas-opcion">
+                    <img src="images/html.png" alt="HTML" class="tecnologias-herramientas-img">
+                    <div class="porcentaje-container">
+                        <div class="barra-porcentaje" style="width: 60%;">
+                            <span class="porcentaje">60%</span> <!-- Porcentaje dentro de la barra -->
+                        </div>
+                        <div class="barra-porcentaje-restante" style="width: 100%;"></div> <!-- Barra de porcentaje restante -->
+                    </div>
+                    <p>
+                        Creación de interfaces de usuario responsivas y atractivas, con conocimientos avanzados en diseño web.
+                    </p>
+                </article>
+                <article class="tecnologias-herramientas-opcion">
+                    <img src="images/css-3.png" alt="CSS" class="tecnologias-herramientas-img">
+                    <div class="porcentaje-container">
+                        <div class="barra-porcentaje" style="width: 60%;">
+                            <span class="porcentaje">60%</span> <!-- Porcentaje dentro de la barra -->
+                        </div>
+                        <div class="barra-porcentaje-restante" style="width: 100%;"></div> <!-- Barra de porcentaje restante -->
+                    </div>
+                    <p>
+                        Creación de interfaces de usuario responsivas y atractivas, con conocimientos avanzados en diseño web.
+                    </p>
+                </article>
+                <article class="tecnologias-herramientas-opcion">
+                    <img src="images/git.png" alt="Git" class="tecnologias-herramientas-img">
+                    <div class="porcentaje-container">
+                        <div class="barra-porcentaje" style="width: 40%;">
+                            <span class="porcentaje">40%</span> <!-- Porcentaje dentro de la barra -->
+                        </div>
+                        <div class="barra-porcentaje-restante" style="width: 100%;"></div> <!-- Barra de porcentaje restante -->
+                    </div>
+                    <p>
+                        Control de versiones y colaboración en proyectos de desarrollo con Git y plataformas como GitHub Pages.
+                    </p>
+                </article>
+                <article class="tecnologias-herramientas-opcion">
+                    <img src="images/visual-basico.png" alt="Visual Basic" class="tecnologias-herramientas-img">
+                    <div class="porcentaje-container">
+                        <div class="barra-porcentaje" style="width: 50%;">
+                            <span class="porcentaje">50%</span> <!-- Porcentaje dentro de la barra -->
+                        </div>
+                        <div class="barra-porcentaje-restante" style="width: 100%;"></div> <!-- Barra de porcentaje restante -->
+                    </div>
+                    <p>
+                        Entorno de desarrollo integrado para la creación y depuración de aplicaciones en .NET.
+                    </p>
+                </article>
+                <article class="tecnologias-herramientas-opcion">
+                    <img src="images/bootstrap.png" alt="Visual Basic" class="tecnologias-herramientas-img">
+                    <div class="porcentaje-container">
+                        <div class="barra-porcentaje" style="width: 60%;">
+                            <span class="porcentaje">60%</span> <!-- Porcentaje dentro de la barra -->
+                        </div>
+                        <div class="barra-porcentaje-restante" style="width: 100%;"></div> <!-- Barra de porcentaje restante -->
+                    </div>
+                    <p>
+                        Bootstrap framework de desarrollo front-end que facilita la creación de sitios web responsivos y móviles de manera rápida y sencilla. 
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        {{!-- Espacio del footer --}}
+        {{> footer}}
+    </main>  
+</body>
+</html>

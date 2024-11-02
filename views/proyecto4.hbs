@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <title>Inicio - Portafolio</title>
+</head>
+<body>
+    {{!-- Lugar del header --}}
+    {{> header}}
+
+    <main class="inicio" id="inicio">
+        <section id="proyecto">
+            <h1 class="titulo-proyecto">Página Web Tienda de Mascotas</h1>
+            <p class="descripcion-proyecto">La Página Web de Mascotas es un diseño realizado con Html y Css como práctica 
+                de estas tecnologías, desarrollando las buenas prácticas de ámbas tecnologías y realizando el maquetado 
+                correspondiente al diseño de la estructura de la página.</p>
+            
+            <div class="tecnologias-utilizadas">
+                <h2>Tecnologías Utilizadas</h2>
+                <div class="tecnologias-grid">
+                    <div class="tecnologia-item">
+                        <img src="/images/html.png" alt="HTML">
+                        <p>HTML</p>
+                    </div>
+                    <div class="tecnologia-item">
+                        <img src="/images/css-3.png" alt="CSS">
+                        <p>CSS</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="contenido-proyecto">
+                <h2>Detalles del Proyecto</h2>
+                <p>
+                    El proyecto del diseño consta de una página web para una tienda de mascotas diseñada con maquetación en html. Es decir, 
+                    su header, navbar, main, section, aside, article y footer. El diseño se realiza con Css puro, sin utilizar ningun otro
+                    framework. El diseño también es responsivo, por lo cual se puede adaptar a cualquier dispositivo.
+                </p>
+                <div class="imagenes-proyecto">
+                    <img src="/images/tiendaMascotas/imagen1.png" alt="Imagen del Proyecto 4">
+                    <img src="/images/tiendaMascotas/imagen2.png" alt="Imagen del Proyecto 4">
+                    <img src="/images/tiendaMascotas/imagen3.png" alt="Imagen del Proyecto 4">
+                    <img src="/images/tiendaMascotas/imagen4.png" alt="Imagen del Proyecto 4">
+                </div>
+            </div>
+
+            <div class="video-proyecto">
+                <h2>Video de Explicación</h2>
+                <iframe src="https://www.youtube.com/embed/xXjgQGMnQ7s?si=ofe3vEZl1scmLvAF" 
+                        title="Video de Explicación del Proyecto" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+
+            <div class="github-enlace">
+                <a href="https://github.com/JosueMinchez-M/TiendaMascotas" target="_blank">
+                    <img src="/images/github.png" alt="Enlace a GitHub">
+                    <span>Ver Código en GitHub</span>
+                </a>
+            </div>
+
+            <div class="github-enlace">
+                <a href="https://josueminchez-m.github.io/TiendaMascotas/" target="_blank">
+                    <img src="/images/github.png" alt="Enlace a GitHub">
+                    <span>Ver Página Web en GitHub Pages</span>
+                </a>
+            </div>
+        </section>
+        {{!-- Espacio del footer --}}
+        {{> footer}}
+    </main>  
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <title>Inicio - Portafolio</title>
+</head>
+<body>
+    {{!-- Lugar del header --}}
+    {{> header}}
+
+    <main class="inicio" id="inicio">
+        <section class="seccionInicio" id="seccionInicio">
+            <div class="inicio-info">
+                <div class="inicio-info-texto">
+                    <h1 class="hola">Hola,</h1>
+                    <div class="nombreCompleto">
+                        <h1 class="nombres">Soy Josué David <span class="apellidos">Mínchez Monzón</span></h1>
+                    </div>
+                    <h2 class="profesion">Desarrollador</h2>
+                    <a href="/sobreMi" class="btn-sobremi">
+                        Sobre mí <img src="images/flecha-hacia-abajo-para-navegar.png" alt="Flecha" class="flecha-btn-sobremi">
+                    </a>
+                    <div class="redes-sociales">
+                        <a href="#" class="redes-sociales-link">
+                            <img src="images/linkedin.png" alt="LinkedIn" class="redes-sociales-img">
+                        </a>
+                        <a href="#" class="redes-sociales-link">
+                            <img src="images/github.png" alt="GitHub" class="redes-sociales-img">
+                        </a>
+                        <a href="#" class="redes-sociales-link">
+                            <img src="images/whatsapp.png" alt="WhatsApp" class="redes-sociales-img">
+                        </a>
+                        <a href="#" class="redes-sociales-link">
+                            <img src="images/facebook.png" alt="Facebook" class="redes-sociales-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="inicio-foto">
+                <div class="fotoInicio">
+                    <img src="images/fotoFormal.png" alt="Foto Formal" class="fotoFormal">
+                </div>
+            </div>
+        </section>
+        {{!-- Espacio del footer --}}
+        {{> footer}}
+    </main>  
+</body>
+</html>

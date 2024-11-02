@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <title>Inicio - Portafolio</title>
+</head>
+<body>
+    {{!-- Lugar del header --}}
+    {{> header}}
+
+    <main class="inicio" id="inicio">
+        <section id="proyecto">
+            <h1 class="titulo-proyecto">Sistema Web de Jubilación por Parte del Estado de Guatemala</h1>
+            <p class="descripcion-proyecto">El sistema web de Jubilación por Parte del Estado de Guatemala le permite al jubilado saber 
+                cuánto recibirá de jubilación por los años laborados en cualquier entidad del Estado de Guatemala...</p>
+            
+            <div class="tecnologias-utilizadas">
+                <h2>Tecnologías Utilizadas</h2>
+                <div class="tecnologias-grid">
+                    <div class="tecnologia-item">
+                        <img src="/images/html.png" alt="HTML">
+                        <p>HTML</p>
+                    </div>
+                    <div class="tecnologia-item">
+                        <img src="/images/css-3.png" alt="CSS">
+                        <p>CSS</p>
+                    </div>
+                    <div class="tecnologia-item">
+                        <img src="/images/javascript.png" alt="JavaScript">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="tecnologia-item">
+                        <img src="/images/bootstrap.png" alt="Bootstrap">
+                        <p>Bootstrap</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="contenido-proyecto">
+                <h2>Detalles del Proyecto</h2>
+                <p>El proyecto consta de un formulario web en donde se detallan las instrucciones correspondientes para el 
+                    llenado del mismo y los campos para poder ingresar la información que se solicita.</p>
+                <div class="imagenes-proyecto">
+                    <img src="/images/jubilacion/imagen1.png" alt="Imagen del Proyecto 1">
+                    <img src="/images/jubilacion/imagen2.png" alt="Imagen del Proyecto 2">
+                </div>
+            </div>
+
+            <div class="video-proyecto">
+                <h2>Video de Explicación</h2>
+                <iframe src="https://www.youtube.com/embed/wdMqpDUleLI?si=l06sdIRRaebaVI4D" 
+                        title="Video de Explicación del Proyecto" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+
+            <div class="github-enlace">
+                <a href="https://github.com/JosueMinchez-M/CalculoJubilacionEstadoGuatemala" target="_blank">
+                    <img src="/images/github.png" alt="Enlace a GitHub">
+                    <span>Ver Código en GitHub</span>
+                </a>
+            </div>
+
+            <div class="github-enlace">
+                <a href="https://josueminchez-m.github.io/CalculoJubilacionEstadoGuatemala/" target="_blank">
+                    <img src="/images/github.png" alt="Enlace a GitHub">
+                    <span>Ver Página Web en GitHub Pages</span>
+                </a>
+            </div>
+        </section>
+        {{!-- Espacio del footer --}}
+        {{> footer}}
+    </main>  
+</body>
+</html>

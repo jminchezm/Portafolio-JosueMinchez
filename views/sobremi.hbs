@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Inicio - Portafolio</title>
+</head>
+<body>
+    {{!-- Lugar del header --}}
+    {{> header}}
+
+    <main class="inicio" id="inicio">
+        <section id="sobremi">
+            <div class="container-sobremi">
+                <h1 class="titulo-sobremi">¿Quién Soy?</h1>
+                <p class="parrafo-sobremi">
+                    Soy un estudiante de ingeniería en ciencias y sistemas con una profunda pasión por la 
+                    tecnología y la innovación. Mi objetivo es explorar y desarrollar soluciones 
+                    tecnológicas avanzadas que resuelvan problemas reales y mejoren la calidad de vida. 
+                    Me especializo en el desarrollo de software y sistemas, y estoy comprometido con el 
+                    aprendizaje continuo y el trabajo en equipo. A través de mis estudios y proyectos, 
+                    busco enfrentar desafíos complejos y contribuir a la creación de soluciones eficientes 
+                    y sostenibles.
+                </p>
+                <div class="datos-personales">
+                    <h2 class="titulo-datos">Datos Personales</h2>
+                    <div class="datos-lista">
+                        <div class="dato">
+                            <i class="fas fa-user"></i>
+                            <p><strong>Nombre:</strong> Josué David Mínchez Monzón</p>
+                        </div>
+                        <div class="dato">
+                            <i class="fas fa-envelope"></i>
+                            <p><strong>Correo Electrónico:</strong> <a href="#">josueminchezm@gmail.com</a></p>
+                        </div>
+                        <div class="dato">
+                            <i class="fas fa-calendar-alt"></i>
+                            <p><strong>Fecha de Nacimiento:</strong> 12 de mayo de 1998</p>
+                        </div>
+                        <div class="dato">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p><strong>Ubicación:</strong> 3ra Calle 3-41, Zona 2, Panajachel, Sololá.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mision-vision">
+                    <article class="vision">
+                        <h2 class="titulo-vision">Visión</h2>
+                        <p>
+                            Convertirme en un líder en la ingeniería en ciencias y sistemas, utilizando mi 
+                            conocimiento y habilidades para desarrollar soluciones tecnológicas innovadoras 
+                            que transformen la sociedad y mejoren la calidad de vida de las personas a nivel 
+                            global.
+                        </p>
+                    </article>
+                    <article class="mision">
+                        <h2 class="titulo-mision">Misión</h2>
+                        <p>
+                            Desarrollar soluciones tecnológicas eficientes y sostenibles mediante la aplicación 
+                            de principios de ingeniería y ciencias de la computación. Mi misión es aprender, 
+                            crecer y colaborar con otros profesionales para crear un impacto positivo en el mundo 
+                            a través de la tecnología.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        {{!-- Espacio del footer --}}
+        {{> footer}}
+    </main>  
+</body>
+</html>
